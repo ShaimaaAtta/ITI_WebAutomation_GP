@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/PCM/OneDrive/Desktop/ITI/Automation project/CommerceProject/pom.xml">
+        <classes>
+            <class name="register.RegisterTests"/>
+            <class name="login.LoginTests"/>
+            <class name="login.MyHomePageTests"/>
+            <class name="login.MyAccountTests"/>
+            <class name="cellphones.CellphonesTests"/>
+            <class name="shoppingCart.ShoppingCartTests"/>
+            <class name="shoppingCart.MacTests"/>
+            <class name="shoppingCart.ModifiedShoppingCartTests"/>
+            <class name="checkout.CheckoutTests"/>
+            <class name="orderDetails.OrderDetailsTests"/>
+        </classes>
+    </test>
+</suite>
+
+

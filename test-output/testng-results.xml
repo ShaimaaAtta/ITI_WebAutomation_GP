@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="34" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-22T17:02:08Z" name="All Test Suite" finished-at="2023-11-22T17:02:39Z" duration-ms="31595">
+    <groups>
+    </groups>
+    <test started-at="2023-11-22T17:02:08Z" name="C:/Users/PCM/OneDrive/Desktop/ITI/Automation project/CommerceProject/pom.xml" finished-at="2023-11-22T17:02:39Z" duration-ms="31595">
+      <class name="shoppingCart.ModifiedShoppingCartTests">
+        <test-method signature="testNewProductAppeared()[pri:0, instance:shoppingCart.ModifiedShoppingCartTests@6a2f6f80]" started-at="2023-11-22T17:02:26Z" name="testNewProductAppeared" finished-at="2023-11-22T17:02:26Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewProductAppeared -->
+        <test-method signature="testRemoveMacProduct()[pri:0, instance:shoppingCart.ModifiedShoppingCartTests@6a2f6f80]" started-at="2023-11-22T17:02:26Z" name="testRemoveMacProduct" finished-at="2023-11-22T17:02:28Z" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveMacProduct -->
+      </class> <!-- shoppingCart.ModifiedShoppingCartTests -->
+      <class name="cellphones.CellphonesTests">
+        <test-method signature="testHover()[pri:0, instance:cellphones.CellphonesTests@75db5df9]" started-at="2023-11-22T17:02:17Z" name="testHover" finished-at="2023-11-22T17:02:19Z" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHover -->
+      </class> <!-- cellphones.CellphonesTests -->
+      <class name="shoppingCart.MacTests">
+        <test-method signature="testMacPageTile()[pri:0, instance:shoppingCart.MacTests@1190200a]" started-at="2023-11-22T17:02:23Z" name="testMacPageTile" finished-at="2023-11-22T17:02:23Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMacPageTile -->
+        <test-method signature="testProductAddedNotification()[pri:0, instance:shoppingCart.MacTests@1190200a]" started-at="2023-11-22T17:02:23Z" name="testProductAddedNotification" finished-at="2023-11-22T17:02:26Z" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductAddedNotification -->
+      </class> <!-- shoppingCart.MacTests -->
+      <class name="register.RegisterTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:register.RegisterTests@4961f6af]" started-at="2023-11-22T17:01:54Z" name="setUp" finished-at="2023-11-22T17:02:08Z" duration-ms="13738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulRegister()[pri:0, instance:register.RegisterTests@4961f6af]" started-at="2023-11-22T17:02:08Z" name="testSuccessfulRegister" finished-at="2023-11-22T17:02:14Z" duration-ms="5759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:register.RegisterTests@4961f6af]" started-at="2023-11-22T17:02:40Z" name="tearDown" finished-at="2023-11-22T17:02:42Z" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- register.RegisterTests -->
+      <class name="login.LoginTests">
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:login.LoginTests@5aebe890]" started-at="2023-11-22T17:02:14Z" name="testSuccessfulLogin" finished-at="2023-11-22T17:02:15Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+      </class> <!-- login.LoginTests -->
+      <class name="login.MyHomePageTests">
+        <test-method signature="checkMyHome()[pri:0, instance:login.MyHomePageTests@65d09a04]" started-at="2023-11-22T17:02:15Z" name="checkMyHome" finished-at="2023-11-22T17:02:16Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyHome -->
+      </class> <!-- login.MyHomePageTests -->
+      <class name="shoppingCart.ShoppingCartTests">
+        <test-method signature="testCompareProductPriceToTotal()[pri:0, instance:shoppingCart.ShoppingCartTests@707194ba]" started-at="2023-11-22T17:02:19Z" name="testCompareProductPriceToTotal" finished-at="2023-11-22T17:02:20Z" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareProductPriceToTotal -->
+        <test-method signature="testPricesAfterChangeQty()[pri:0, instance:shoppingCart.ShoppingCartTests@707194ba]" started-at="2023-11-22T17:02:20Z" name="testPricesAfterChangeQty" finished-at="2023-11-22T17:02:23Z" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricesAfterChangeQty -->
+      </class> <!-- shoppingCart.ShoppingCartTests -->
+      <class name="checkout.CheckoutTests">
+        <test-method signature="testCheckoutProcess()[pri:0, instance:checkout.CheckoutTests@45b4c3a9]" started-at="2023-11-22T17:02:28Z" name="testCheckoutProcess" finished-at="2023-11-22T17:02:29Z" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutProcess -->
+        <test-method signature="testMailsOfBillAndShipAddresses()[pri:0, instance:checkout.CheckoutTests@45b4c3a9]" started-at="2023-11-22T17:02:29Z" name="testMailsOfBillAndShipAddresses" finished-at="2023-11-22T17:02:35Z" duration-ms="5811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMailsOfBillAndShipAddresses -->
+        <test-method signature="testPhoneOfBillAndShipAddresses()[pri:0, instance:checkout.CheckoutTests@45b4c3a9]" started-at="2023-11-22T17:02:35Z" name="testPhoneOfBillAndShipAddresses" finished-at="2023-11-22T17:02:35Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneOfBillAndShipAddresses -->
+        <test-method signature="testSuccessfulOrderText()[pri:0, instance:checkout.CheckoutTests@45b4c3a9]" started-at="2023-11-22T17:02:35Z" name="testSuccessfulOrderText" finished-at="2023-11-22T17:02:37Z" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulOrderText -->
+      </class> <!-- checkout.CheckoutTests -->
+      <class name="orderDetails.OrderDetailsTests">
+        <test-method signature="testPageTitle()[pri:0, instance:orderDetails.OrderDetailsTests@399c4be1]" started-at="2023-11-22T17:02:37Z" name="testPageTitle" finished-at="2023-11-22T17:02:39Z" duration-ms="2638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+      </class> <!-- orderDetails.OrderDetailsTests -->
+      <class name="login.MyAccountTests">
+        <test-method signature="testMyAccountInfo()[pri:0, instance:login.MyAccountTests@33c911a1]" started-at="2023-11-22T17:02:16Z" name="testMyAccountInfo" finished-at="2023-11-22T17:02:17Z" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyAccountInfo -->
+      </class> <!-- login.MyAccountTests -->
+    </test> <!-- C:/Users/PCM/OneDrive/Desktop/ITI/Automation project/CommerceProject/pom.xml -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
